@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStyles } from './{{= it.component.name }}-style';
 
-const {{= it.component.name}} => () = {
+const {{= it.component.name}} = () => {
     return (
       <div>
 

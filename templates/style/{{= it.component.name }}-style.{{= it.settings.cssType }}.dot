@@ -1,7 +1,5 @@
-/*
- * {{= it.component.name }} {{= it.settings.cssType || 'css'}} File
-*/
+import { makeStyles } from '@material-ui/styles';  
 
-.{{= it.component.name }} {
-    /* propertys here */
-}
+export const useStyles = makeStyles(theme => ({
+    /* your styles */
+}));
