@@ -1,0 +1,65 @@
+{
+  "_from": "create-components-react@^2.1.4",
+  "_id": "create-components-react@2.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-rP1PQIG6htnw3YSs+uXgK6+FLBkXG2ZjgDmML8fxmP4YyJhZM0HLKRdFMlxWKtEAjBM/aivDUJ4blQXWNJxm0w==",
+  "_location": "/create-components-react",
+  "_phantomChildren": {
+    "graceful-fs": "4.2.4",
+    "jsonfile": "4.0.0",
+    "universalify": "0.1.2"
+  },
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "create-components-react@^2.1.4",
+    "name": "create-components-react",
+    "escapedName": "create-components-react",
+    "rawSpec": "^2.1.4",
+    "saveSpec": null,
+    "fetchSpec": "^2.1.4"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/create-components-react/-/create-components-react-2.1.4.tgz",
+  "_shasum": "7bdbbcacb9a77fcb8fc87da999bd82071e85b612",
+  "_spec": "create-components-react@^2.1.4",
+  "_where": "D:\\Horondi\\horondi_client_fe",
+  "author": {
+    "name": "Marcellino Ornelas"
+  },
+  "bin": {
+    "ccr": "./index.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "^2.6.0",
+    "commander": "^2.15.1",
+    "dot": "^1.1.2",
+    "filenamify": "^2.1.0",
+    "fs-extra": "^7.0.1",
+    "is-valid-path": "^0.1.1",
+    "ispromise": "^1.1.0",
+    "valid-filename": "^2.0.1"
+  },
+  "deprecated": false,
+  "description": "Short cut to create a react component",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=6.13.1"
+  },
+  "homepage": "https://github.com/marcellino-ornelas/create-react-component",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "create-components-react",
+  "scripts": {
+    "start": "echo \"Should be installed globally \" && exit 1",
+    "test": "mocha test/"
+  },
+  "version": "2.1.4"
+}

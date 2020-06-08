@@ -1,0 +1,12 @@
+import React from 'react';
+import { useStyles } from './{{= it.component.name }}-style';
+
+const {{= it.component.name}} => () = {
+    return (
+      <div>
+
+      </div>
+    );
+}
+
+export default {{= it.component.name}};
